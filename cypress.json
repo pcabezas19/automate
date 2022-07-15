@@ -1,0 +1,9 @@
+{
+    "baseUrl": "https://steplix.com/",
+    "video": false,
+    "screenshotOnRunFailure": false,
+    "chromeWebSecurity": false,
+    "viewportWidth": 1920,
+    "viewportHeight": 1080,
+    "testFiles": "**/*.{feature,features}"
+}

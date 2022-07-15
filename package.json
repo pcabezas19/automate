@@ -1,0 +1,26 @@
+{
+  "name": "steplix-web",
+  "version": "1.0.0",
+  "description": "Automation testing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress run chrome"
+  },
+  "author": "Pedro Cabezas",
+  "license": "ISC",
+  "devDependencies": {
+    "@testing-library/cypress": "^8.0.2",
+    "cy-verify-downloads": "^0.1.7",
+    "cypress": "^9.7.0",
+    "cypress-cucumber-preprocessor": "^4.3.1",
+    "eslint": "^8.16.0",
+    "eslint-plugin-cypress": "^2.12.1"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  },
+  "dependencies": {
+    "cypress-downloadfile": "^1.2.2"
+  }
+}
